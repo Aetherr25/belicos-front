@@ -6,7 +6,7 @@ const initialFormState = {
   categoryId: null,
   name: '',
   description: '',
-  imageUrl: '',
+  imageFile: null,
   price: 0,
   stock: 0,
   active: true,
@@ -36,7 +36,21 @@ export const useCreateProduct = () => {
     setIsSuccess(false);
 
     try {
-      await productsApi.createProduct(formData);
+
+      const dataToSend = new FormData();
+
+      dataToSend.append('Name', formData.name);
+      dataToSend.append('Description', formData.description);
+      dataToSend.append('CategoryId', String(formData.categoryId));
+      dataToSend.append('Price', String(formData.price));
+      dataToSend.append('Stock', String(formData.stock));
+      dataToSend.append('Active', String(formData.active));
+
+      if(formData.imageFile){
+        dataToSend.append('ImageFile' ,formData.imageFile)
+      }
+
+      await productsApi.createProduct(dataToSend as any);
       setIsSuccess(true);
 
       setTimeout(() => {

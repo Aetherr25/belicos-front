@@ -1,5 +1,5 @@
 import http from "../../../api/apiClient";
-import type { CreateProduct, Product, UpdateProduct } from "../types";
+import type { Product, UpdateProduct } from "../types";
 
 
 export const productsApi = {
@@ -29,8 +29,12 @@ export const productsApi = {
     return response.data
   },
 
-  createProduct: async (data: CreateProduct) => {
-    const response = await http.post("/products", data);
+  createProduct: async (data: FormData) => {
+    const response = await http.post("/products", data, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    });
     return response.data;
   }
 }

@@ -1,6 +1,7 @@
 import { useCreateProduct } from "../hooks/useCreateProduct";
 import { ModalBase } from "../../Administrator/components/ModalBase";
 import { useGetAllActivesCategories } from "../../Categories/hooks/useGetAllActivesCategories";
+import { ImageDropZone } from "./ImageDropZone";
 
 interface ActiveToggleStaticProps {
   isOpen: boolean;
@@ -67,6 +68,10 @@ export const CreateProductModal = ({
               onChange={(e) => handleChange('description', e.target.value)} 
               className="bg-gray-200 rounded-lg py-2 px-3 text-lg" />
           </div>
+          <ImageDropZone 
+            selectedFile={formData.imageFile as File | null} 
+            onImageChange={(file) => handleChange('imageFile', file)}
+          />
           <div
             className="flex flex-col gap-3 mb-2">
               <label 

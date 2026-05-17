@@ -5,6 +5,7 @@ export interface Product {
   name: string;
   description: string;
   imageUrl?: string | null;
+  imageFile?: File | null;
   price: number;
   stock: number;
   active: boolean;
