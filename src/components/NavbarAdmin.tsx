@@ -3,7 +3,15 @@ import { useAuthStore } from "../store/useAuthStore";
 import { useNavigate } from "react-router-dom";
 import { CircleUser, Search, Settings, SquareArrowRightExit } from "lucide-react";
 
-export const NavbarAdmin = () => {
+interface NavbarAdminProps {
+  PanelAdmin?: boolean;
+  ReporteVentas?: boolean;
+}
+
+export const NavbarAdmin = ({
+  PanelAdmin,
+  ReporteVentas
+}: NavbarAdminProps) => {
 
   const navigate = useNavigate();
 
@@ -12,6 +20,8 @@ export const NavbarAdmin = () => {
   const logout = useAuthStore((state) => state.logout);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const active = "text-red-600 font-semibold border-b-2 border-red-600"
 
   
 
@@ -51,15 +61,15 @@ export const NavbarAdmin = () => {
       <nav className="hidden md:flex items-center gap-8 mt-1">
         {/* Aquí marco mi enlace activo con el texto y el borde inferior en color rojo */}
         <a 
-          className="text-red-600 font-semibold pb-1 border-b-2 border-red-600 hover:cursor-pointer"
+          className={` pb-1 hover:cursor-pointer ${PanelAdmin ? active : 'text-gray-500 font-medium transition-colors'}`}
           onClick={() => navigate("/PanelAdmin")}
         >
           Panel de admin
         </a>
-        {/* Este es mi enlace inactivo, lo dejo en gris y le agrego un hover para cuando pase el mouse */}
+
         <a 
-          href="#" 
-          className="text-gray-500 font-medium pb-1 hover:text-gray-800 transition-colors"
+          className={`pb-1 hover:cursor-pointer ${ReporteVentas ? active : 'text-gray-500 font-medium transition-colors'}`}
+          onClick={() => navigate("/ReporteVentas")}
         >
           Reporte de ventas
         </a>

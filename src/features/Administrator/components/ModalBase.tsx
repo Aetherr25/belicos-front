@@ -41,7 +41,7 @@ export const ModalBase = ({
     <dialog
       ref={dialogRef}
       onClose={onClose}
-      className="w-full m-auto max-w sm:max-w-md p-6 bg-white rounded-2xl shadow-2xl backdrop:bg-black/50 backdrop-blur-sm">
+      className="w-full m-auto max-w sm:max-w-md p-6 bg-white rounded-2xl shadow-2xl backdrop:bg-black/50 backdrop:backdrop-blur-sm">
         <div>
           <div
             className="flex gap-2 items-center">

@@ -7,7 +7,9 @@ export const PanelAdmin = () => {
 
   return (
     <>
-      <NavbarAdmin />
+      <NavbarAdmin 
+        PanelAdmin={true}
+      />
       <div
         className="max-w-[80%] mx-auto mt-20"
       >

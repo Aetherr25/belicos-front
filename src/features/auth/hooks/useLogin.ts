@@ -29,7 +29,7 @@ export const useLogin = () => {
             navigate("/PanelAdmin");
             break;
           case "Cajero": 
-            navigate("/Home");
+            navigate("/panel-cajero");
             break;
           default:
             console.warn(`Rol no reconocido: ${userData.roleName}`);
