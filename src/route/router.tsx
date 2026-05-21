@@ -9,7 +9,7 @@ import { SaucesPage } from "../features/Sauces/pages/SaucesPage";
 import { PanelCashier } from "../features/Cashier/pages/PanelCashier";
 import { Inventory } from "../features/Cashier/pages/Inventory";
 import { CashRegistration } from "../features/Cashier/pages/CashRegistration";
-import { Orders } from "../features/Cashier/pages/Orders";
+import { Orders } from "../features/Cashier/Orders/pages/Orders";
 
 export interface RouteConfig {
   path: string;
