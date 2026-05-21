@@ -3,6 +3,8 @@ import { formatCurrencyMXN } from '../../../utils/helpers/formatCurrancyMXN';
 import { ModalBase } from '../../Administrator/components/ModalBase'
 import type { Product } from '../types';
 
+const STORAGE_URL = (import.meta.env.VITE_API_URL || "http://localhost:5150/api").replace("/api", "");
+
 interface DetailProductModalProps {
   isOpen: boolean;
   product: Product | null;
@@ -31,6 +33,24 @@ export const DetailProductModal = ({
         className="mt-5 flex flex-col gap-5"
       >
         <div className="flex flex-col gap-3 mb-2">
+          <div className='flex justify-center my-5'>
+            {product.imageUrl ? (
+                <img
+                  src={`${STORAGE_URL}/${product.imageUrl}`}
+                  alt={product.name}
+                  className="w-[80%] h-50 object-cover rounded-lg border border-gray-100 shadow-md"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = "/placeholder.png";
+                  }}
+                />
+              
+                
+              ) : (
+                <div className="w-[80%] h-50 shadow-md rounded-lg bg-gray-100 flex items-center justify-center text-gray-400 text-xs">
+                  Sin imagen
+                </div>
+              )}
+            </div>
             <h3 
               className="text-2xl w-fit"
             >Nombre </h3>

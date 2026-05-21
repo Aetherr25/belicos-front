@@ -6,6 +6,8 @@ import { DeleteProductModal } from "./DeleteProductModal";
 import { DetailProductModal } from "./DetailProductModal";
 import { formatCurrencyMXN } from "../../../utils/helpers/formatCurrancyMXN";
 
+const STORAGE_URL = (import.meta.env.VITE_API_URL || "http://localhost:5150/api").replace("/api", "");
+
 interface TableProductsProps {
   products: Product[];
   isLoading: boolean;
@@ -76,7 +78,20 @@ export const TableProducts = ({products, isLoading, error, refetch} : TableProdu
                   #{product.productId}
                 </td>
                 <td className="px-6 py-5">
-                  {product.imageUrl}
+                  {product.imageUrl ? (
+                    <img
+                      src={`${STORAGE_URL}/${product.imageUrl}`}
+                      alt={product.name}
+                      className="w-16 h-16 object-cover rounded-lg border border-gray-100"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = "/placeholder.png";
+                      }}
+                    />
+                  ) : (
+                    <div className="w-16 h-16 rounded-lg bg-gray-100 flex items-center justify-center text-gray-400 text-xs">
+                      Sin imagen
+                    </div>
+                  )}
                 </td>
                 <td className="px-6 py-5 text-md font-bold text-gray-800">
                   {product.name}

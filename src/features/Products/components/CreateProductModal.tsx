@@ -40,7 +40,11 @@ export const CreateProductModal = ({
       <form
         onSubmit={handleFormSubmit}
         className="mt-5 flex flex-col gap-5">
-        <div className="flex flex-col gap-3 mb-2">
+          <ImageDropZone 
+            selectedFile={formData.imageFile as File | null} 
+            onImageChange={(file) => handleChange('imageFile', file)}
+          />
+          <div className="flex flex-col gap-3 mb-2">
             <label 
               htmlFor="name" 
               className="text-2xl w-fit"
@@ -68,10 +72,6 @@ export const CreateProductModal = ({
               onChange={(e) => handleChange('description', e.target.value)} 
               className="bg-gray-200 rounded-lg py-2 px-3 text-lg" />
           </div>
-          <ImageDropZone 
-            selectedFile={formData.imageFile as File | null} 
-            onImageChange={(file) => handleChange('imageFile', file)}
-          />
           <div
             className="flex flex-col gap-3 mb-2">
               <label 

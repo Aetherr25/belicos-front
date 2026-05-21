@@ -6,7 +6,7 @@ const initialFormState = {
   categoryId: null,
   name: '',
   description: '',
-  imageUrl: '',
+  imageFile: null,
   price: 0,
   stock: 0,
   active: true,
@@ -63,7 +63,7 @@ export const useUpdateProduct = (productId: number | null) => {
 
   }, [productId])
 
-  const handleChange = (name: keyof UpdateProduct, value: string | number | boolean) => {
+  const handleChange = (name: keyof UpdateProduct, value: string | number | boolean | null | File) => {
     setFormData(prev => ({
       ...prev,
       [name]: value
@@ -73,14 +73,36 @@ export const useUpdateProduct = (productId: number | null) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if(!productId) return;
+    console.log('formData al submit:', formData); // ← Agrega esto
+    console.log('categoryId:', formData.categoryId); // ← Y esto
+
+    if (!productId) return;
+
+    if (!formData.categoryId) {
+      setError("Categoría inválida");
+      return;
+    }
 
     setIsUpdating(true);
     setError(null);
     setIsSuccess(false);
 
     try{
-      await productsApi.updateProduct(productId, formData);
+
+      const dataToSend = new FormData();
+
+      dataToSend.append('Name', formData.name);
+      dataToSend.append('Description', formData.description);
+      dataToSend.append('CategoryId', String(formData.categoryId));
+      dataToSend.append('Price', String(formData.price));
+      dataToSend.append('Stock', String(formData.stock));
+      dataToSend.append('Active', formData.active ? "true" : "false");
+
+      if(formData.imageFile){
+        dataToSend.append('ImageFile' ,formData.imageFile)
+      }
+
+      await productsApi.updateProduct(productId, dataToSend as any);
 
       setIsSuccess(true);
 

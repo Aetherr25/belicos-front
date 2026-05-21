@@ -30,7 +30,7 @@ export const ModalBase = ({
   const colorMap: Record<string, string> ={
     Detalle: "bg-gray-400",
     Crear: "bg-green-500",
-    Modificar: "bg-yellow-400",
+    Actualizar: "bg-yellow-400",
     Eliminar: "bg-red-600"
   }
 
