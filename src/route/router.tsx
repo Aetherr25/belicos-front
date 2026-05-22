@@ -11,6 +11,7 @@ import { Inventory } from "../features/Cashier/pages/Inventory";
 import { CashRegistration } from "../features/Cashier/pages/CashRegistration";
 import { Orders } from "../features/Cashier/Orders/pages/Orders";
 import EditProfilePage from "../features/Profile/pages/EditProfilePage";
+import { UsersPage } from "../features/Users/pages/UsersPage";
 
 export interface RouteConfig {
   path: string;
@@ -36,7 +37,13 @@ export const routes: RouteConfig[] = [
     element: <PanelAdmin />,
     allowedRoles: ["Administrador"],
     isProtected: true,
-  },
+    },
+    {
+        path: "/UsersPage",
+        element: <UsersPage />,
+        allowedRoles: ["Administrador"],
+        isProtected: true,
+    },
   {
     path: "/ReporteVentas",
     element: <SalesReport />,

@@ -1,6 +1,7 @@
-import { Droplet, Grid2x2Plus, ShoppingCart } from "lucide-react";
 import { NavbarAdmin } from "../../../components/NavbarAdmin";
 import { ItemCard } from "../components/ItemCard";
+import { Droplet, Grid2x2Plus, ShoppingCart, Users } from "lucide-react";
+
 
 export const PanelAdmin = () => {
 
@@ -23,9 +24,9 @@ export const PanelAdmin = () => {
             <span className="text-red-500 text-4xl font-bold">
               |
             </span>
-            <p
-              className="text-xl text-gray-600"
-            >En esta pantalla puedes acceder a gestionar tus productos, salsas y cateogorías</p>
+                      <p className="text-xl text-gray-600">
+                          En esta pantalla puedes acceder a gestionar tus productos, salsas, categorías y usuarios
+                      </p>
           </div>
         </div>
         <div
@@ -49,6 +50,12 @@ export const PanelAdmin = () => {
             icon={Droplet}
             to="/SaucesPage"
           />
+                  <ItemCard
+                      title="Gestionar Usuarios"
+                      description="Administra los usuarios y sus roles de acceso"
+                      icon={Users}
+                      to="/UsersPage"
+                  />
         </div>
         
       </div>
