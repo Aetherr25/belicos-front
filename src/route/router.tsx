@@ -10,6 +10,7 @@ import { PanelCashier } from "../features/Cashier/pages/PanelCashier";
 import { Inventory } from "../features/Cashier/pages/Inventory";
 import { CashRegistration } from "../features/Cashier/pages/CashRegistration";
 import { Orders } from "../features/Cashier/Orders/pages/Orders";
+import EditProfilePage from "../features/Profile/pages/EditProfilePage";
 
 export interface RouteConfig {
   path: string;
@@ -88,6 +89,13 @@ export const routes: RouteConfig[] = [
     element: <Orders/>,
     allowedRoles: ["Cajero"],
     isProtected: true,
+  },
+
+  {
+  path: "/profile/edit",
+  element: <EditProfilePage />,
+  isProtected: true,
+  allowedRoles: ["Administrador", "Cajero"],
   },
 
   {

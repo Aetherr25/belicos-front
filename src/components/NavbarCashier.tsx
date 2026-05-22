@@ -125,12 +125,12 @@ export const NavbarCashier = ({
             <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-100 rounded-lg shadow-xl z-50 flex flex-col py-2">
               
               <a
-                href="#"
-                className="px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 transition-colors flex items-center gap-2"
-              >
-                <CircleUser width={24} strokeWidth={1.5}/>
-                Mi Perfil
-              </a>
+                onClick={() => { navigate("/profile/edit"); setIsDropdownOpen(false); }}
+  className="px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 transition-colors flex items-center gap-2 hover:cursor-pointer"
+>
+  <CircleUser width={24} strokeWidth={1.5}/>
+  Mi Perfil
+</a>
               
               <a
                 href="#"
