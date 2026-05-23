@@ -2,6 +2,7 @@
 interface CategoryFilterButtonProps {
   label: string;
   isSelected: boolean;
+  onClick?: () => void
 }
 
 export const CategoryFilterButton = ({label, isSelected} : CategoryFilterButtonProps) => {
