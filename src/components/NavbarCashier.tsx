@@ -54,7 +54,7 @@ export const NavbarCashier = ({
         className="flex flex-col"
       >
         <h1 className="text-2xl font-bold text-gray-900 leading-none">
-          Panel de admin
+          Panel de Cajero
         </h1>
         <span className="text-[10px] font-bold text-red-600 tracking-widest uppercase mt-1">
           Bélicos Boneless

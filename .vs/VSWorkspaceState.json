@@ -6,6 +6,9 @@
     "\\src\\features\\Administrator",
     "\\src\\features\\Administrator\\api",
     "\\src\\features\\Administrator\\hooks",
+    "\\src\\features\\Cashier",
+    "\\src\\features\\Cashier\\api",
+    "\\src\\features\\Cashier\\hooks",
     "\\src\\route"
   ],
   "PreviewInSolutionExplorer": false
