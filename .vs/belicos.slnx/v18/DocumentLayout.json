@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\juanj\\Desktop\\belicos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\pages\\SalesReport.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Administrator\\pages\\SalesReport.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\hooks\\useGetSalesReport.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Administrator\\hooks\\useGetSalesReport.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\api\\reportsApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Administrator\\api\\reportsApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\api\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Cashier\\Orders\\api\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\types\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Cashier\\Orders\\types\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanj\\Desktop\\belicos\\src\\route\\router.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\route\\router.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -63,19 +95,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SalesReport.tsx",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\pages\\SalesReport.tsx",
+              "RelativeDocumentMoniker": "src\\features\\Administrator\\pages\\SalesReport.tsx",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\pages\\SalesReport.tsx",
+              "RelativeToolTip": "src\\features\\Administrator\\pages\\SalesReport.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T17:06:58.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "useGetSalesReport.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\hooks\\useGetSalesReport.ts",
+              "RelativeDocumentMoniker": "src\\features\\Administrator\\hooks\\useGetSalesReport.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\hooks\\useGetSalesReport.ts",
+              "RelativeToolTip": "src\\features\\Administrator\\hooks\\useGetSalesReport.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T17:06:32.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "reportsApi.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\api\\reportsApi.ts",
+              "RelativeDocumentMoniker": "src\\features\\Administrator\\api\\reportsApi.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\api\\reportsApi.ts",
+              "RelativeToolTip": "src\\features\\Administrator\\api\\reportsApi.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T17:06:09.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "useUpdateOrderStatus.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts",
+              "RelativeDocumentMoniker": "src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts",
+              "RelativeToolTip": "src\\features\\Cashier\\Orders\\hooks\\useUpdateOrderStatus.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T16:33:13.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestionPedidos.tsx",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx",
+              "RelativeDocumentMoniker": "src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx",
+              "RelativeToolTip": "src\\features\\Cashier\\Orders\\pages\\GestionPedidos.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T15:51:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "useGetAllOrders.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts",
+              "RelativeDocumentMoniker": "src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts",
+              "RelativeToolTip": "src\\features\\Cashier\\Orders\\hooks\\useGetAllOrders.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T15:50:50.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\api\\index.ts",
+              "RelativeDocumentMoniker": "src\\features\\Cashier\\Orders\\api\\index.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\api\\index.ts",
+              "RelativeToolTip": "src\\features\\Cashier\\Orders\\api\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T15:49:36.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\types\\index.ts",
+              "RelativeDocumentMoniker": "src\\features\\Cashier\\Orders\\types\\index.ts",
+              "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Cashier\\Orders\\types\\index.ts",
+              "RelativeToolTip": "src\\features\\Cashier\\Orders\\types\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-23T15:49:00.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "router.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\route\\router.tsx",
               "RelativeDocumentMoniker": "src\\route\\router.tsx",
               "ToolTip": "C:\\Users\\juanj\\Desktop\\belicos\\src\\route\\router.tsx",
               "RelativeToolTip": "src\\route\\router.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-05-22T05:50:35.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "PanelAdmin.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Administrator\\pages\\PanelAdmin.tsx",
               "RelativeDocumentMoniker": "src\\features\\Administrator\\pages\\PanelAdmin.tsx",
@@ -88,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "UsersPage.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\pages\\UsersPage.tsx",
               "RelativeDocumentMoniker": "src\\features\\Users\\pages\\UsersPage.tsx",
@@ -101,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ToggleUserModal.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\components\\ToggleUserModal.tsx",
               "RelativeDocumentMoniker": "src\\features\\Users\\components\\ToggleUserModal.tsx",
@@ -114,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "UpdateUserModal.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\components\\UpdateUserModal.tsx",
               "RelativeDocumentMoniker": "src\\features\\Users\\components\\UpdateUserModal.tsx",
@@ -127,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "CreateUserModal.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\components\\CreateUserModal.tsx",
               "RelativeDocumentMoniker": "src\\features\\Users\\components\\CreateUserModal.tsx",
@@ -140,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "TableUsers.tsx",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\components\\TableUsers.tsx",
               "RelativeDocumentMoniker": "src\\features\\Users\\components\\TableUsers.tsx",
@@ -153,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "useUpdateUser.ts",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\hooks\\useUpdateUser.ts",
               "RelativeDocumentMoniker": "src\\features\\Users\\hooks\\useUpdateUser.ts",
@@ -166,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "useCreateUser.ts",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\hooks\\useCreateUser.ts",
               "RelativeDocumentMoniker": "src\\features\\Users\\hooks\\useCreateUser.ts",
@@ -179,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "useGetAllUsers.ts",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\hooks\\useGetAllUsers.ts",
               "RelativeDocumentMoniker": "src\\features\\Users\\hooks\\useGetAllUsers.ts",
@@ -192,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "api.ts",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\api\\api.ts",
               "RelativeDocumentMoniker": "src\\features\\Users\\api\\api.ts",
@@ -205,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "index.ts",
               "DocumentMoniker": "C:\\Users\\juanj\\Desktop\\belicos\\src\\features\\Users\\types\\index.ts",
               "RelativeDocumentMoniker": "src\\features\\Users\\types\\index.ts",

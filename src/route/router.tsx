@@ -12,6 +12,7 @@ import { CashRegistration } from "../features/Cashier/pages/CashRegistration";
 import { Orders } from "../features/Cashier/Orders/pages/Orders";
 import EditProfilePage from "../features/Profile/pages/EditProfilePage";
 import { UsersPage } from "../features/Users/pages/UsersPage";
+import { GestionPedidos } from "../features/Cashier/Orders/pages/GestionPedidos";
 
 export interface RouteConfig {
   path: string;
@@ -109,6 +110,12 @@ export const routes: RouteConfig[] = [
     path: "*",
     element: <Navigate to="/" replace />,
     isProtected: false,
-  },
+    },
+    {
+        path: "/gestion-pedidos",
+        element: <GestionPedidos />,
+        allowedRoles: ["Cajero"],
+        isProtected: true,
+    },
   
 ];

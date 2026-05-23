@@ -3,13 +3,10 @@
     "",
     "\\src",
     "\\src\\features",
-    "\\src\\features\\Administrator\\pages",
-    "\\src\\features\\Users\\components",
-    "\\src\\features\\Users\\hooks",
-    "\\src\\features\\Users\\pages",
-    "\\src\\features\\Users\\types",
+    "\\src\\features\\Administrator",
+    "\\src\\features\\Administrator\\api",
+    "\\src\\features\\Administrator\\hooks",
     "\\src\\route"
   ],
-  "SelectedNode": "\\src\\route\\router.tsx",
   "PreviewInSolutionExplorer": false
 }
