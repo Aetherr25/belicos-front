@@ -7,14 +7,16 @@ interface NavbarCashierProps {
   PanelCajero?: boolean;
   CrearPedido?: boolean;
   Inventario?: boolean;
-  Caja?:boolean;
+    Caja?: boolean;
+    GestionPedidos?: boolean;
 }
 
 export const NavbarCashier = ({
   PanelCajero,
   CrearPedido,
   Inventario,
-  Caja
+    Caja,
+    GestionPedidos,
 } : NavbarCashierProps) => {
   const navigate = useNavigate();
 
@@ -52,7 +54,7 @@ export const NavbarCashier = ({
         className="flex flex-col"
       >
         <h1 className="text-2xl font-bold text-gray-900 leading-none">
-          Panel de admin
+          Panel de Cajero
         </h1>
         <span className="text-[10px] font-bold text-red-600 tracking-widest uppercase mt-1">
           Bélicos Boneless
@@ -75,14 +77,19 @@ export const NavbarCashier = ({
           onClick={() => navigate("/crear-pedido")}
         >
           Crear Pedido
-        </a>
+              </a>
+
+              <a className={`pb-1 hover:cursor-pointer ${GestionPedidos ? active : 'text-gray-500 font-medium transition-colors'}`}
+                  onClick={() => navigate("/gestion-pedidos")}>
+                  Gestión de Pedidos
+              </a>
 
         <a 
           className={`pb-1 hover:cursor-pointer ${Inventario ? active : 'text-gray-500 font-medium transition-colors'}`}
           onClick={() => navigate("/inventario")}
         >
           Inventario
-        </a>
+              </a>
 
         <a 
           className={`pb-1 hover:cursor-pointer ${Caja ? active : 'text-gray-500 font-medium transition-colors'}`}

@@ -49,7 +49,7 @@ export const NavbarAdmin = ({
         className="flex flex-col"
       >
         <h1 className="text-2xl font-bold text-gray-900 leading-none">
-          Panel de admin
+          Panel de Admin
         </h1>
         <span className="text-[10px] font-bold text-red-600 tracking-widest uppercase mt-1">
           Bélicos Boneless
