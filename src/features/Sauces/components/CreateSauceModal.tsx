@@ -41,7 +41,7 @@ export const CreateSauceModal = ({ isOpen, onClose, onConfirm }: CreateSauceModa
           <div className="flex flex-col gap-3 mb-2">
             <label htmlFor="name" className="text-2xl w-fit">Nombre:</label>
             <input
-              type="text"
+              type="text" 
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
