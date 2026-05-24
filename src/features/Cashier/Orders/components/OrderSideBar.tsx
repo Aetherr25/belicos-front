@@ -54,7 +54,7 @@ export const OrderSidebar = ({
             type="text"
             value={customerName}
             onChange={(e) => onCustomerNameChange(e.target.value)}
-            placeholder="Walk-in Customer"
+            placeholder="Ej. Juan Martínez"
             className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-700 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-red-100 focus:border-red-400 transition"
           />
         </div>

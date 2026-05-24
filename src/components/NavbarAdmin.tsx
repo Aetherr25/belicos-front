@@ -114,13 +114,13 @@ export const NavbarAdmin = ({
   Mi Perfil
 </a>
               
-              <a
+              {/* <a
                 href="#"
                 className="px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 transition-colors flex items-center gap-2"
               >
                 <Settings width={24} strokeWidth={1.5}/>
                 Configuración
-              </a>
+              </a> */}
               
               <hr className="my-1 border-gray-100" />
               

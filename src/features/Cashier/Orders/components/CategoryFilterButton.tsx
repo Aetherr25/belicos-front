@@ -5,12 +5,13 @@ interface CategoryFilterButtonProps {
   onClick?: () => void
 }
 
-export const CategoryFilterButton = ({label, isSelected} : CategoryFilterButtonProps) => {
+export const CategoryFilterButton = ({label, isSelected, onClick} : CategoryFilterButtonProps) => {
   return (
     <button 
+      onClick={onClick}
       type="button"
-      className={isSelected ? "py-2 px-3 bg-red-500 rounded-lg shadow-md hover:bg-red-600 text-white font-semibold hover:cursor-pointer transition-colors duration-300 ease-in-out "
-        : "py-2 px-3 bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 hover:cursor-pointer transition-colors duration-300 ease-in-out"
+      className={isSelected ? "py-2 px-3 bg-red-500 rounded-lg shadow-md hover:bg-red-600 text-white font-semibold hover:cursor-pointer transition-colors duration-200 ease-in-out "
+        : "py-2 px-3 bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 hover:cursor-pointer transition-colors duration-200 ease-in-out"
       }
     >
       <span>{label}</span>

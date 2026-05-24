@@ -24,7 +24,7 @@ export interface RouteConfig {
 export const routes: RouteConfig[] = [
   {
     path: "/",
-    element: <div>Renderizar Menu Aquí</div>,
+    element: <LoginPage />,
     isProtected: false,
   },
   {
