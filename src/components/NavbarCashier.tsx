@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
-import { CircleUser, Search, Settings, SquareArrowRightExit } from "lucide-react";
+import { CircleUser, Search, SquareArrowRightExit } from "lucide-react";
 
 interface NavbarCashierProps {
   PanelCajero?: boolean;
