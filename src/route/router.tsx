@@ -9,10 +9,10 @@ import { SaucesPage } from "../features/Sauces/pages/SaucesPage";
 import { PanelCashier } from "../features/Cashier/pages/PanelCashier";
 import { Inventory } from "../features/Cashier/pages/Inventory";
 import { CashRegistration } from "../features/Cashier/pages/CashRegistration";
-import { Orders } from "../features/Cashier/Orders/pages/Orders";
+import { Orders } from "../features/Cashier/orders/pages/Orders";
 import EditProfilePage from "../features/Profile/pages/EditProfilePage";
 import { UsersPage } from "../features/Users/pages/UsersPage";
-import { GestionPedidos } from "../features/Cashier/Orders/pages/GestionPedidos";
+import { GestionPedidos } from "../features/Cashier/orders/pages/GestionPedidos";
 
 export interface RouteConfig {
   path: string;

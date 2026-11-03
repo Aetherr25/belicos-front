@@ -1,5 +1,5 @@
 import { ShoppingCart, Trash2, ChevronUp, ChevronDown, Truck, Loader2 } from "lucide-react";
-import type { CreateOrderItemDto, OrderPreviewDto } from "../Types";
+import type { CreateOrderItemDto, OrderPreviewDto } from "../types";
 import type { Product } from "../../../Products/types";
 
 interface OrderSidebarProps {
