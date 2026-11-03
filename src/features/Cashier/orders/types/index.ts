@@ -30,3 +30,16 @@ export interface CreateOrderDto {
   isDelivery: boolean;
   items: CreateOrderItemDto[];          // ← ahora TypeScript ya la conoce
 }
+
+export interface Order {
+  id: number;
+  clientName: string;
+  paymentMethod: string;
+  isDelivery: boolean;
+  subtotal: number;
+  deliveryCost: number;
+  total: number;
+  status?: string;
+  createdAt?: string;
+  items: OrderPreviewItemDto[];
+}
