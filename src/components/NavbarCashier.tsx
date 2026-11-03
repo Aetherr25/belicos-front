@@ -14,7 +14,7 @@ interface NavbarCashierProps {
 export const NavbarCashier = ({
   PanelCajero,
   CrearPedido,
-  // Inventario,
+  Inventario,
     Caja,
     GestionPedidos,
 } : NavbarCashierProps) => {
@@ -84,12 +84,12 @@ export const NavbarCashier = ({
                   Gestión de Pedidos
               </a>
 
-        {/* <a 
+        <a 
           className={`pb-1 hover:cursor-pointer ${Inventario ? active : 'text-gray-500 font-medium transition-colors'}`}
           onClick={() => navigate("/inventario")}
         >
           Inventario
-              </a> */}
+              </a>
 
         <a 
           className={`pb-1 hover:cursor-pointer ${Caja ? active : 'text-gray-500 font-medium transition-colors'}`}
@@ -139,13 +139,13 @@ export const NavbarCashier = ({
   Mi Perfil
 </a>
               
-              {/* <a
+              <a
                 href="#"
                 className="px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 transition-colors flex items-center gap-2"
               >
                 <Settings width={24} strokeWidth={1.5}/>
                 Configuración
-              </a> */}
+              </a>
               
               <hr className="my-1 border-gray-100" />
               
