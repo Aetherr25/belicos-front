@@ -1,5 +1,5 @@
 import { ShoppingCart, Trash2, ChevronUp, ChevronDown, Truck, Loader2 } from "lucide-react";
-import type { CreateOrderItemDto, OrderPreviewDto } from "../Types";
+import type { CreateOrderItemDto, OrderPreviewDto } from "../types";
 import type { Product } from "../../../Products/types";
 
 interface OrderSidebarProps {
@@ -28,7 +28,7 @@ export const OrderSidebar = ({
   // Enriquece los items con datos del producto para mostrar imagen/nombre
   const enrichedItems = items.map((item) => {
     const product = products.find((p) => p.productId === item.productId);
-    const previewItem = preview?.items.find((p) => p.productId === item.productId);
+    const previewItem = preview?.items.find((p: OrderPreviewItemDto) => p.productId === item.productId);
     return {
       ...item,
       name: product?.name ?? "",

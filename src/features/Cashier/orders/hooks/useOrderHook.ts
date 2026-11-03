@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import type { CreateOrderDto, OrderPreviewDto } from "../Types";
+import type { CreateOrderDto, OrderPreviewDto } from "../types";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5150/api";
 

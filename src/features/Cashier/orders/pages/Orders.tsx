@@ -5,7 +5,7 @@ import { useGetAllProducts } from "../../../Products/hooks/useGetAllProducts";
 import { CategoryFilterButton } from "../components/CategoryFilterButton";
 import { ProductCard } from "../components/ProductCard";
 import { useOrderPreview } from "../hooks/useOrderHook";
-import type { CreateOrderItemDto } from "../Types";
+import type { CreateOrderItemDto } from "../types";
 import { OrderSidebar } from "../components/OrderSideBar";
 
 const STORAGE_URL = (import.meta.env.VITE_API_URL || "http://localhost:5150/api").replace("/api", "");
