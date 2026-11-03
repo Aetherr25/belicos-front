@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Order } from "../types";
+import type { Order } from "../Types";
 
 const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5150/api";
 

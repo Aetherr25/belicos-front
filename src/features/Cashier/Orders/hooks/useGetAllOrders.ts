@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { ordersApi } from "../api";
-import type { Order } from "../types";
+import type { Order } from "../Types";
 
 export const useGetAllOrders = () => {
     const [orders, setOrders] = useState<Order[]>([]);
