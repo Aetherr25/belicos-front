@@ -80,7 +80,7 @@ export const TableProducts = ({products, isLoading, error, refetch} : TableProdu
                 <td className="px-6 py-5">
                   {product.imageUrl ? (
                     <img
-                      src={`${STORAGE_URL}/${product.imageUrl}`}
+                      src={`${STORAGE_URL}${product.imageUrl}`}
                       alt={product.name}
                       className="w-16 h-16 object-cover rounded-lg border border-gray-100"
                       onError={(e) => {

@@ -36,7 +36,7 @@ export const DetailProductModal = ({
           <div className='flex justify-center my-5'>
             {product.imageUrl ? (
                 <img
-                  src={`${STORAGE_URL}/${product.imageUrl}`}
+                  src={`${STORAGE_URL}${product.imageUrl}`}
                   alt={product.name}
                   className="w-[80%] h-50 object-cover rounded-lg border border-gray-100 shadow-md"
                   onError={(e) => {

@@ -32,7 +32,7 @@ export const OrderSidebar = ({
     return {
       ...item,
       name: product?.name ?? "",
-      image: product ? `${storageUrl}/${product.imageUrl}` : "",
+      image: product ? `${storageUrl}${product.imageUrl}` : "",
       unitPrice: previewItem?.unitPrice ?? product?.price ?? 0,
       subtotal: previewItem?.subtotal ?? 0,
     };

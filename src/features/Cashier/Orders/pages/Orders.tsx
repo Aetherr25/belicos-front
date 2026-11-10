@@ -95,7 +95,7 @@ export const Orders = () => {
               {filteredProducts.map((product) => (
                 <ProductCard
                   key={product.productId}
-                  image={`${STORAGE_URL}/${product.imageUrl}`}
+                  image={`${STORAGE_URL}${product.imageUrl}`}
                   name={product.name}
                   description={product.description}
                   price={product.price}
