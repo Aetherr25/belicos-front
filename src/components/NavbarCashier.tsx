@@ -14,7 +14,6 @@ interface NavbarCashierProps {
 export const NavbarCashier = ({
   PanelCajero,
   CrearPedido,
-  Inventario,
     Caja,
     GestionPedidos,
 } : NavbarCashierProps) => {
@@ -82,13 +81,6 @@ export const NavbarCashier = ({
               <a className={`pb-1 hover:cursor-pointer ${GestionPedidos ? active : 'text-gray-500 font-medium transition-colors'}`}
                   onClick={() => navigate("/gestion-pedidos")}>
                   Gestión de Pedidos
-              </a>
-
-        <a 
-          className={`pb-1 hover:cursor-pointer ${Inventario ? active : 'text-gray-500 font-medium transition-colors'}`}
-          onClick={() => navigate("/inventario")}
-        >
-          Inventario
               </a>
 
         <a 
